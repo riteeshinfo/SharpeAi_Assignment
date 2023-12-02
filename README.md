@@ -71,12 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Project Structure:
 The project follows a modular structure with separate components for each page and reusable components for enhanced code organization.
 
-React Transaction Page:
+### React Transaction Page:
 
-Displays transaction details, including wallet address and recipient address.
+ Asks for the user's wallet address and amount. I.
 Implements React Router for seamless navigation between pages.
-Data Page:
-
+And stores the data in the Firebase
+### Data Page:
+used Axios for fetching the data
 Presents a pie chart representing the number of posts written by User ID 1 out of the total posts.
 Utilizes the react-chartjs-2 library for chart rendering.
 Integrates proper form validation and error handling for a seamless user experience.
