@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Structure:
+The project follows a modular structure with separate components for each page and reusable components for enhanced code organization.
+
+React Transaction Page:
+
+Displays transaction details, including wallet address and recipient address.
+Implements React Router for seamless navigation between pages.
+Data Page:
+
+Presents a pie chart representing the number of posts written by User ID 1 out of the total posts.
+Utilizes the react-chartjs-2 library for chart rendering.
+Integrates proper form validation and error handling for a seamless user experience.
